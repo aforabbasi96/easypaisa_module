@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='easypaisa_payment',
+    name='easypaisapayment',
     version='0.0.1',
     packages=['migrations'],
     url='',
