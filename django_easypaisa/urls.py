@@ -2,7 +2,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.conf.urls import url, include
 from rest_framework import routers
 
-from easypaisa_module.views import PostbackHandler, PaymentView, PaymentStatusViewSet
+from django_easypaisa.views import PaymentStatusViewSet, PostbackHandler, PaymentView
 
 router = routers.DefaultRouter()
 router.register(r'status', PaymentStatusViewSet)
