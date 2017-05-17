@@ -22,7 +22,7 @@
         EASYPAISA_POST_BACK_URL=os.environ.get('EASYPAISA_POST_BACK_URL','https://easypaisa.herokuapp.com/payments/postbackhandler/')
         EASYPAISA_SERVER_URL=os.environ.get('EASYPAISA_SERVER_URL','https://easypaystg.easypaisa.com.pk')
         PAYMENT_COMPLETION_REDIRECT_TO_URL='/'
-    
+    4.5 export STORE_ID=<your-store-id>
     5. Make migrations `python manage.py makemigrations` 
     6. Run migrations `python manage.py migrate`
 
