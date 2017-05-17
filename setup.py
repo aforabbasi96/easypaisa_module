@@ -1,9 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='easypaisapayment',
+    name='django_easypaisa',
     version='1.0.1',
-    packages=['migrations'],
+    packages=find_packages(),
     url='',
     license='MIT License',
     author='Qasim Gulzar',
